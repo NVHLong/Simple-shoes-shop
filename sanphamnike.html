@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    
+    <!-- css--> 
+    <link rel="stylesheet" href="sanpham.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header style="box-shadow: 0px 2px #80808073; position: fixed;">
+        <nav>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_Search">
+                    <input type="text" class="txtSearch" id="myInput" placeholder="Nhập nội dung tìm kiếm">
+                    <button class="btn-search">Tìm kiếm</button>
+                </div>
+                <div class="Nav_Tool">
+                    <a href="Cart.html"><img src="Icon/giohang.png" alt=""><span class="badge">3</span></a>
+                    <div class="dropdown">
+                        <a href="canhan.html"><img style="width: 40px;"src="Icon/avt1.png" alt=""></a>
+                        <div class="dropdown-content">
+                          <a href="canhan.html">Trang cá nhân</a>
+                          <a href="#popup2">Đăng xuất</a>
+                        </div>
+                      </div> 
+                </div>
+            </div>
+            <div class="menu">
+
+                <ul id="myUL">
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a style="font-weight: bold; color: #069DF8;" href="sanpham.html" >Sản phẩm</a>
+                            <div class="dropdown-content">
+                              <a href="#">Adidas</a>
+                              <a href="sanphamnike.html">Nike</a>
+                              <a href="#">Puma</a>
+                              <a href="#">Vans</a>
+                              <a href="#">Converse</a>
+                              <a href="khongthaysp.html">New Balance</a>
+                            </div>
+                          </div> 
+                    </li>
+                    <li><a href="tintuc.html" >Tin tức</a>
+
+                    </li>
+                    <li><a href="Gioithieu.html">Giới thiệu</a>
+
+                    </li>
+                    
+                    <li id ="hotro" style="margin-left:340px ; "> Hotline: <span style="color: #FF510D;">0912345678 / 0123456789</span>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="Breadcrumb">
+        <a id="bre1" href="index.html">Trang chủ / </a>
+        <a id="bre2" href="sanpham.html">Sản phẩm</a>
+    </div>
+
+    <div class="main">
+        <div class="filter">
+            <div class="filter-head">Bộ lọc sản phẩm</div>
+            <div class="filter-content">
+                <div class="line"></div>
+                <div class="Dssp">
+                    <div class="Dssp-head">
+                        <img src="Icon/menu.png" alt="">
+                        <p>Danh mục</p>
+                    </div>
+                    <div class="Dssp-option">
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Sản phẩm mới
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Sản phẩm bán chạy
+                        </label>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="Dssp">
+                    <div class="Dssp-head">
+                        <img src="Icon/menu.png" alt="">
+                        <p>Loại giày</p>
+                    </div>
+                    <div class="Dssp-option">
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Giày thể thao nam
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Giày thể thao nữ
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Giày thời trang nam
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Giày thời trang nữ
+                        </label>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="Dssp">
+                    <div class="Dssp-head">
+                        <img src="Icon/menu.png" alt="">
+                        <p>Giá thành</p>
+                    </div>
+                    <div class="Dssp-option">
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Từ thấp tới cao
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                          Từ cao tới thấp
+                        </label>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="Dssp">
+                    <div class="Dssp-head">
+                        <img src="Icon/menu.png" alt="">
+                        <p>Thương hiệu</p>
+                    </div>
+                    <div class="Dssp-option">
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Adidas
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox" checked>
+                            Nike
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Puma
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Vans
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            Converse
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="check" id="checkbox">
+                            New Balance
+                        </label>
+                    </div>
+                </div>
+                <div class="Btn-custom">
+                    <a href="sanpham.html" class="Btn-custom-reset">Đặt lại</a>
+                    <a href="sanphamnike.html" class="Btn-custom-apply">Áp dụng</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="sale_banner">
+                <img src="Icon/banner1.png" alt="">
+            </div>
+            <div class="main-content-headtitle">
+                <p>Sản phẩm Nike</p>
+            </div>
+            <div class="main-content-product">
+                <div class="main-grid-content">
+                    
+                    <div class="grid-product">
+                        <div class="grid-product-img">
+                            <div class="best_sale">-20%</div>
+                        <a href="chitietsanpham.html"><img src="Shoe/nkie af1.jpeg" alt="Ảnh giay"></a>
+                        </div>
+                        <div class="grid-product-title">
+                            <p id="giay"><a href="chitietsanpham.html">Nike AF1 White</a></p>
+                            <div class="price">
+                                <p class="giagoc">2.000.000đ</p>
+                                <p class="sale">1.600.000đ</p>
+                            </div>
+                            <div class="review">
+                                <span style="font-size:16px ;">5</span>
+                                <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-product">
+                        <div class="grid-product-img">
+                            <div class="best_sale">-20%</div>
+                            <img src="Shoe/Nike Air Force 1 Mid.jpeg" alt="Ảnh giay">
+                        </div>
+                        <div class="grid-product-title">
+                            <p id="giay"><a href="">Nike AF 1 Mid</a></p>
+                            <div class="price">
+                                <p class="giagoc">2.200.000đ</p>
+                                <p class="sale">1.760.000đ</p>
+                            </div>
+                            <div class="review">
+                                <span style="font-size:16px ;">4,8</span>
+                                <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-product">
+                        <div class="grid-product-img">
+                            <div class="best_sale">-20%</div>
+                            <img src="Shoe/Nike Dunk Low Retro.jpeg" alt="Ảnh giay">
+                        </div>
+                        <div class="grid-product-title">
+                            <p id="giay"><a href="">Nike Dunk Low Retro</a></p>
+                            <div class="price">
+                                <p class="giagoc">2.100.000đ</p>
+                                <p class="sale">1.900.000đ</p>
+                            </div>
+                            <div class="review">
+                                <span style="font-size:16px ;">4,5</span>
+                                <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="grid-product">
+                    <div class="grid-product-img">
+                        <div class="best_sale">-10%</div>
+                        <img src="Shoe/Nike Air Force 1 Mid by Virgil Abloh.jpeg" alt="Ảnh giay">
+                    </div>
+                    <div class="grid-product-title">
+                        <p id="giay"><a href="">Nike Mid Virgil Abloh</a></p>
+                        <div class="price">
+                            <p class="giagoc">2.500.000đ</p>
+                            <p class="sale">2.250.000đ</p>
+                        </div>
+                        <div class="review">
+                            <span style="font-size:16px ;">5</span>
+                            <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="pagination">
+                    <a href="#" class="previous">&#8249;</a>
+                    <a href="#" style="background-color: #069df8; color: white; border: 1px solid #069df8;">1</a>
+                    <a href="#" class="next">&#8250;</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>Đăng xuất ?</h2>
+                <div class="content">
+                    <a class="co" href="index-1.html">Có</a>
+                    <a class="khong" href="#">Không</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="Logo-support-text">
+                <img src="Icon/Wrapper.png" alt="">
+                </div>
+
+            </div>
+            <div class="link">
+                <div class="dichvu">
+                    <p>Khuyến mãi</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Voucher</li>
+                            <li>Khuyến mãi tháng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Chính sách</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Chính sách vận chuyển</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo mật</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Liên hệ</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Cửa hàng giày Simple Shoes Shop</li>
+                            <li>SĐT: 0912345678</li>
+                            <li>Địa chỉ: 129 P.Bà Triệu, Bùi Thị Xuân, Hai Bà Trưng, Hà Nội</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footerlogo">©2022 Simple Shoe Shop</p>
+
+</body>
+</html>

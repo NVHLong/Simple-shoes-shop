@@ -1,0 +1,366 @@
+body {
+    font-family: 'Lexend Deca';
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 58px 120px;
+    gap: 40px;
+}
+
+.main .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 24px;
+    width: 260px;
+    border: 1px solid #069df8;
+    border-radius: 8px;
+}
+
+.filter .filter-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 80px;
+    font-size: 24px;
+    color: #069df8;
+}
+
+.filter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 260px;
+}
+
+.line {
+    width: 180px;
+    border: 0.5px solid #e3e3e3;
+}
+
+.Dssp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 260px;
+}
+
+.Dssp .Dssp-head{
+    align-items: center;
+    padding: 0px 52px;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+.Btn-custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.Btn-custom a{
+    text-decoration: none;
+}
+
+.Btn-custom-reset {
+    color: #069df8;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid #069df8;
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+}
+
+.Btn-custom-apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid #069df8;
+    width: 90px;
+    height: 40px;
+    color: #ffffff;
+    background: #069df8;
+    border-radius: 8px;
+}
+
+.Dssp-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 69px;
+    width: 259px;
+    height: 24px
+}
+
+.Dssp-head p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.Dssp-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 160px;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    height: 24px;
+    font-size: 14px;
+    width: 200px;
+}
+
+
+/**************** Main-Right ************************/
+
+.main .main-content {
+    width: 961px;
+    left: 327px;
+    top: 0px;
+}
+
+.sale_banner img{
+    border-radius: 8px;
+    height: 340px;
+}
+
+.main-content-headtitle {
+    width: 961px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+}
+
+.main-content-headtitle p {
+    font-weight: 600;
+    font-size: 40px;
+    color: #00629E;
+    padding: 40px 0;
+}
+
+.main-content-headtitle-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 650px;
+    width: 961px;
+    height: 44px;
+    left: 0px;
+    top: 48px;
+}
+
+
+
+
+
+/*title left*/
+
+.main-content-headtitle-sub-left {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #666666;
+}
+
+.main-content-product {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 40px;
+}
+
+.main-grid-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    border-radius: 0px;
+}
+
+.grid-product {
+    background-color: #ffffff;
+    width: 290px;
+    border: 1px solid #069df8;
+    border-radius: 8px;
+    transition: box-shadow .3s;
+}
+
+.grid-product:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.grid-product-img {
+    width: 100%;
+    height: 250px;
+}
+
+.grid-product-img img{
+    height: 82%;
+    margin: 4px;
+}
+
+.best_sale {
+    gap: 8px;
+    width: 60px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    background-color: #FF510D;
+    padding: 8px 8px;
+    border-radius: 7px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.grid-product-title {
+    padding: 16px;
+    height: 148px;
+}
+
+.grid-product-title #giay {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.grid-product-title #sub {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 4px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+#giay a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.price {
+    float: left;
+    width: 50%;
+    box-sizing: inherit;
+    padding-top: 16px;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 38px;
+}
+
+.review img {
+    width: 20px;
+}
+
+.sale {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #069DF8;
+}
+
+.giagoc {
+    text-decoration-line: line-through;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+
+.pagination {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pagination .previous {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #000000;
+    font-size: 24px;
+} 
+
+.pagination .next {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #000000;
+    font-size: 24px;
+} 
+
+.pagination a {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+    float: left;
+    text-decoration: none;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*--------------------------------*/
+
+.btn_sanpham{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid #069df8;
+    width: 170px;
+    height: 40px;
+    color: #ffffff;
+    background: #069df8;
+    border-radius: 8px;
+    margin: 100px 400px;
+    text-decoration: none;
+}

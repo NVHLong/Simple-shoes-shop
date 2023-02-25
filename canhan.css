@@ -1,0 +1,379 @@
+body {
+    font-family: 'Lexend Deca';
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 58px 120px;
+    gap: 50px;
+}
+
+.main .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 300px;
+    border: 1px solid #069df8;
+    border-radius: 8px;
+}
+
+.filter .filter-head {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #00629E;
+}
+
+.note{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #72766F;
+}
+
+.filter-content {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+}
+
+.line {
+    width: 250px;
+    height: 1px;
+    background: rgba(117, 117, 117, 0.51);
+}
+
+.muc_chon{
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #069DF8;
+   padding: 12px 0px;
+   text-decoration: none;
+}
+
+.muc{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #72766F;
+   padding: 12px 0px;
+   text-decoration: none;
+}
+
+.muc:hover{
+    color:#069DF8 ;
+}
+
+
+/**************** Main-Right ************************/
+
+.main .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 32px;
+    width: 868px;
+}
+.avt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+}
+
+.avt img{
+    width: 160px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:16px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.date-number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:160px;
+}
+
+.btn-thaydoi{
+padding: 16px 24px;
+gap: 10px;
+width: 280px;
+height: 46px;
+background: #069DF8;
+border-radius: 7px;
+text-decoration: none;
+color: #fff;
+text-align: center;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+}
+
+/*------------------popup----------------------*/
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 200px auto;
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 390px;
+    height: 240px;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    text-align: center;
+    color: #00629E;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 50px;
+}
+
+  .co{
+    text-decoration: none;
+    background: #fff;
+    color: #069df8;
+    border-radius: 8px;
+    border: 2px solid #069DF8;
+    padding: 8px 40px;
+    line-height: 14px;
+  }
+
+  .khong{
+    text-decoration: none;
+    background: #069df8;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid #069DF8;
+    padding: 8px 30px;
+    line-height: 14px;
+  }
+  
+
+  /*------------------suacanhan----------------------*/
+
+  .main-checkout-left-t1 label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.main-checkout-left-t1  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.main-checkout-left-t1 .gt{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+    color: #000;
+}
+
+.main-checkout-left-t1-txtname-sdt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 580px;
+    height: 76px;
+}
+
+.main-sex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.name_dathang {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 280px;
+    height: 76px;
+}
+
+.name_dathang #txtName {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 280px;
+    height: 48px;
+    border: none;
+    /* Neutral/5 */
+    background: #E2E8EC;
+    border-radius: 8px;
+}
+
+
+/********************* Email **********************/
+
+.checkout-left-txtEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 580px;
+    height: 76px;
+}
+
+.checkout-left-txtEmail #txtEmail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 580px;
+    height: 48px;
+    /* Neutral/5 */
+    border: none;
+    background: #E2E8EC;
+    border-radius: 8px;
+}
+
+.checkout-left-selectAddress {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 580px;
+    height: 76px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 180px;
+    height: 76px;
+}
+
+.city #city {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 180px;
+    height: 48px;
+    border: none;
+    background: #E2E8EC;
+    border-radius: 8px;
+}
+
+.checkout-left-Ghichu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 580px;
+    height: 130px;
+}
+
+#txtGhichu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 580px;
+    height: 102px;
+    border: none;
+    /* Neutral/5 */
+    background: #E2E8EC;
+    border-radius: 8px;
+}
+
+
+
+
+
+  /*------------------suamatkhau----------------------*/
+
+  .tittle-mk{
+    font-weight: 400;
+font-size: 28px;
+line-height: 136.02%;
+text-align: center;
+color: #069DF8;
+padding-bottom: 30px;
+  }

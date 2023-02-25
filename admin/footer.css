@@ -1,0 +1,72 @@
+
+footer {
+    display: flex;
+    padding: 80px 120px 0px;
+    gap: 170px;
+    width: 100%;
+    /* Primary/1 */
+    background: #00629E;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+}
+
+.Logo-support-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+body {
+    font-family: 'Lexend Deca';
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 160px;
+}
+
+.dichvu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 197px;
+    color: #ffffff;
+}
+
+.dichvu p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dichvu-details ul {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 197px;
+}
+
+.footerlogo{
+    padding: 35px 675px;
+    background: #00629E;
+    color: #ffffff;
+    font-size: 14px;
+}

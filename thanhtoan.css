@@ -1,0 +1,611 @@
+body {
+    font-family: 'Lexend Deca';
+}
+
+.main-checkout {
+    padding: 0px 120px 0px 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-top: 40px;
+    background-color: #FFFFFF;
+}
+
+.main-checkout-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 620px;
+    height: 1000px;
+    gap: 20px;
+    width: 620px;
+}
+
+.main-checkout-left-t1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    width: 620px;
+    height: 670px;
+    background: #FFFFFF;
+}
+
+.main-checkout-left-t1 p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #00629E;
+}
+
+.main-checkout-left-t1-txtname-sdt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 580px;
+    height: 76px;
+}
+
+.name_dathang {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 280px;
+    height: 76px;
+}
+
+.name_dathang #txtName {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 280px;
+    height: 48px;
+    border: none;
+    /* Neutral/5 */
+    background: #E2E8EC;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-checkout-left-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:18px
+}
+
+.main-checkout-ten-sdt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:180px
+}
+
+.main-checkout-left-t1 .main-checkout-left-title{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+/********************* Email **********************/
+
+.checkout-left-txtEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 580px;
+    height: 76px;
+}
+
+.checkout-left-txtEmail #txtEmail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 580px;
+    height: 48px;
+    /* Neutral/5 */
+    border: none;
+    background: #E2E8EC;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.checkout-left-selectAddress {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 580px;
+    height: 76px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 180px;
+    height: 76px;
+}
+
+.city #city {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 180px;
+    height: 48px;
+    border: none;
+    background: #E2E8EC;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.checkout-left-Ghichu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 580px;
+    height: 130px;
+}
+
+#txtGhichu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 580px;
+    height: 102px;
+    border: none;
+    /* Neutral/5 */
+    background: #E2E8EC;
+    border-radius: 8px;
+}
+
+
+/******************** Phương thức thanh toán ********************/
+
+.main-checkout-left-t2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    width: 620px;
+    height: 248px;
+    background: #FFFFFF;
+}
+
+.main-checkout-left-t2 p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #00629E;
+}
+
+.ship_cod {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 20px;
+    height: 36px;
+}
+
+#ship_cod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    height: 36px;
+}
+
+.popup_thanhtoan{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    text-decoration: none;
+}
+
+/*--------------------------------------------*/
+.main-cart-right {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 24px;
+    width: 608px;
+    height: 698px;
+    background: #EDEDED;
+    border-radius: 8px;
+}
+
+.main-cart-right #main-tomtat {
+    font-weight: 600;
+font-size: 28px;
+line-height: 44px;
+    color: #000;
+}
+
+hr {
+    width: 570px;
+    height: 1px;
+    background: #757575;
+}
+
+.tamtinh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 568px;
+    height: 32px;
+}
+
+.tamtinh p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000201;
+}
+
+label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.input-KM {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 40px;
+}
+
+.input-KM #txtKM {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 10px;
+    width: 464px;
+    height: 40px;
+    border: none;
+    background: #fff;
+    border-radius: 8px 0px 0 8px;
+}
+
+.input-KM #btn-apdung {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    background: #069DF8;
+    border-radius: 0 8px 8px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+#btn-thanhtoan {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 320px;
+    height: 40px;
+    border: none;
+    background: #00629E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 128px;
+}
+
+.btn-suathongtin{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 199px;
+    height: 40px;
+    border: none;
+    background: #069DF8;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 185px;
+}
+
+/*-----------------------------------------*/
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px
+}
+
+.product-info .tittle{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+
+.product img{
+    width:100px ;
+}
+
+.product-info-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 144px
+}
+
+.product-info-price .color{
+    width: 103px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+padding-top: 6px;
+}
+
+.product-info-price .price{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+color: #069DF8;
+}
+
+.product .close{
+    font-size: 24px;
+    margin-left: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+/*---------------------------------------*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 200px auto;
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 390px;
+    height: 240px;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    text-align: center;
+    color: #00629E;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 50px;
+}
+
+  .co{
+    text-decoration: none;
+    background: #fff;
+    color: #069df8;
+    border-radius: 8px;
+    border: 2px solid #069DF8;
+    padding: 8px 40px;
+    line-height: 14px;
+  }
+
+  .khong{
+    text-decoration: none;
+    background: #069df8;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid #069DF8;
+    padding: 8px 30px;
+    line-height: 14px;
+  }
+
+/*--------------------------------*/
+
+
+.form-control{
+    padding-bottom: 20px;
+}
+
+.form .title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.form-control label{
+    color:#000;
+    display: block;
+    margin-bottom: 4px; 
+}
+ 
+.form-control input
+{
+    border: 2px solid #E2E8EC;
+    border-radius: 8px;
+    width: 450px;
+    height: 46px;
+    padding: 10px;
+    font-size: 14px;
+    background: #E2E8EC;;   
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #757575;
+
+}
+
+.form-control.success input {
+    border-color: var(--succes-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);    
+}
+
+.form-control small{
+    color: var(--error-color);
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+.form .button1 {
+    cursor: pointer;
+    background-color: #069DF8;
+    border: 2px solid #069DF8;
+    border-radius: 8px;
+    color: #fff;
+    height: 46px;
+    font-size: 16px;
+    margin-top:30px;
+    width:450px;
+}
+ 
+/*-------------------------------------*/
+.main-hoanhthanh{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 100px;
+    gap: 32px;
+    width: 592px;
+    height: 402px;
+    margin: 60px 450px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 6px 24px rgb(69 69 69 / 50%);
+    align-items: center;
+}
+
+.main-hoanhthanh img{
+    width: 100px;
+   height: 100px;
+}
+
+.main-hoanhthanh h1{
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+}
+
+.main-hoanhthanh p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;    
+    color: #72766F;
+}
+
+.btn_sanpham{
+    padding: 10px 16px;
+    gap: 8px;
+    width: 245px;
+    height: 44px;
+    background: #069DF8;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+h4{
+    font-weight: 500;
+}
+
+
+
+  

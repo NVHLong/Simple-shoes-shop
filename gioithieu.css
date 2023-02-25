@@ -1,0 +1,154 @@
+body {
+    font-family: 'Lexend Deca';
+}
+
+.main{
+    padding: 50px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-1{
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tittle-1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    color: #00629E;
+    font-family: 'Lexend Deca';
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 650px;
+}
+
+.story p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: 'Lexend Deca';
+}
+
+/*-------------------------------------------------------*/
+
+#ship{
+    background: #E7F6FF;
+}
+
+.Section_ship {
+    padding: 80px 120px;
+    display: grid;
+    column-gap: 80px;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.tittle-2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    color: #00629E;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    padding: 6px 0 51px 0 ;
+}
+
+
+.Section_ship_grid {
+    background-color: #00629E;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.Section_ship_grid p {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+
+
+/******/
+
+
+.Section_ship_grid_all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    top: 152px;
+}
+
+.Section_ship_grid_con {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 180px;
+    width: 568px;
+    height: 204;
+}
+
+.Grid-icon-ship {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 260px;
+    padding: 0 50px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    padding: 0 95px;
+}
+
+.Con-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 260px;
+    height: 82px;
+}
+
+.Con-title #h1 {
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 32px;
+    width: 300px;
+}
+
+.Con-title #h2 {
+    text-align:center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 260px;
+    height: 40px;
+    color: #ffffff;
+}
+

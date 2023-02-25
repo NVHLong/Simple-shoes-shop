@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    
+    <!-- css--> 
+    <link rel="stylesheet" href="dangkydangnhap.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header style="box-shadow: 0px 2px #80808073; position: fixed;">
+        <nav>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_Search">
+                    <input type="text" class="txtSearch" id="myInput" placeholder="Nhập nội dung tìm kiếm">
+                    <button class="btn-search">Tìm kiếm</button>
+                </div>
+                <div class="Nav_Tool">
+                    <a href="Cart.html"><img src="Icon/giohang.png" alt=""></a>
+                    <div class="dropdown">
+                        <a href="canhan.html"><img style="width: 40px;"src="Icon/canhan.png" alt=""></a>
+                        <div class="dropdown-content">
+                          <a href="canhan.html">Trang cá nhân</a>
+                          <a href="#popup2">Đăng xuất</a>
+                        </div>
+                      </div> 
+                </div>
+                
+            </div>
+            <div class="menu">
+
+                <ul id="myUL">
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="sanpham.html" >Sản phẩm</a>
+                            <div class="dropdown-content">
+                              <a href="#">Adidas</a>
+                              <a href="sanphamnike.html">Nike</a>
+                              <a href="#">Puma</a>
+                              <a href="#">Vans</a>
+                              <a href="#">Converse</a>
+                              <a href="khongthaysp.html">New Balance</a>
+                            </div>
+                          </div> 
+                    </li>
+                    <li><a href="tintuc.html">Tin tức</a>
+
+                    </li>
+                    <li><a href="Gioithieu.html">Giới thiệu</a>
+
+                    </li>
+                    
+                    <li id ="hotro" style="margin-left:340px ; "> Hotline: <span style="color: #FF510D;">0912345678 / 0123456789</span>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="Breadcrumb">
+        <a id="bre1" href="index.html">Trang chủ / </a>
+        <a id="bre2" href="dangky.html">Đăng ký</a>
+    </div>
+
+    <div class="main">
+
+        <div class="container">
+            <form id="form" class="form">
+                <div class="title"> Đăng ký </div>
+                <div class="form-control" style="padding-bottom: 20px;">
+                    <label for="username">Họ và tên</label>
+                    <input type="text" id="username" value="Hằng Nguyễn">
+                    <a class="small"></a>
+                </div>
+                <div class="form-control" style="padding-bottom: 20px;">
+                    <label for="numberphone">Số điện thoại</label>
+                    <input style="border: 2px solid #ff0000;" type="text" id="numberphone" value="123@def">
+                    <a class="small">Số điện thoại phải là số và đủ 10 số</a>
+                </div>
+                <div class="form-control" style="padding-bottom: 20px;">
+                    <label for="password">Password</label>
+                    <input id="password" value="123fgh">
+                    <a class="small"></a>
+                </div>
+                <div class="form-control" style="padding-bottom: 20px;">
+                    <label for="password2">Confirm Password</label>
+                    <input style="border: 2px solid #ff0000;" id="password2" value="456ghf">
+                    <a class="small">Mật khẩu nhập lại không đúng</a>
+                </div>
+
+                <label class="check" for="">
+                    <input type="checkbox" name="check" id="checkbox">
+                    <a style="font-size: 12px;line-height: 20px;width: 200px; text-decoration: none;">Đồng ý với những điều khoản</a>
+                </label>
+
+                <button class="button1"><a style="color: #fff; text-decoration: none;" href="dangky.html">Đăng ký</a></button>
+                
+                <div class="gach">
+                <h2><span> hoặc đăng ký với</span></h2>
+                </div>
+
+                <button class="button2">Đăng ký với Facebook</button>
+                
+                <div class="lienket" style="padding-top: 90px;">
+                   <p>Bạn đã có tài khoản ?</p>
+                   <a class="link" href="dangnhap.html">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+     
+    <div class="img">
+        <img src="Icon/pic1.png" alt="">
+    </div>
+
+    </div>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="Logo-support-text">
+                <img src="Icon/Wrapper.png" alt="">
+                </div>
+
+            </div>
+            <div class="link">
+                <div class="dichvu">
+                    <p>Khuyến mãi</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Voucher</li>
+                            <li>Khuyến mãi tháng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Chính sách</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Chính sách vận chuyển</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo mật</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Liên hệ</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Cửa hàng giày Simple Shoes Shop</li>
+                            <li>SĐT: 0912345678</li>
+                            <li>Địa chỉ: 129 P.Bà Triệu, Bùi Thị Xuân, Hai Bà Trưng, Hà Nội</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footerlogo">©2022 Simple Shoe Shop</p>
+
+</body>
+</html>

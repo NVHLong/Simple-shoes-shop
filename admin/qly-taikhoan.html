@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý tài khoản</title>
+    <link rel="stylesheet" href="top-bar.css">
+    <link rel="stylesheet" href="qly-taikhoan.css">
+</head>
+<body>
+    <header>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="admin-index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_acc">
+                    <img src="Icon/avt-nv.png" alt="">
+                    <p class="acc">Huong123</p>
+                </div>
+            </div>
+    </header>
+   
+    <div class="main">
+        <div class="navbar">
+            <a href="admin-index.html" class="category">Thống kê</a>
+            <a href="qly-donhang.html" class="category">Đơn hàng</a>
+            <a href="qly-sanpham.html" class="category">Sản phẩm</a>
+            <a href="qly-taikhoan.html" class="chose">Tài khoản</a>
+            <a href="qly-nhanvien.html" class="category">Nhân viên</a>
+        <div class="line"></div>
+        <a href="#popup1" class="category">Đăng xuất</a>
+        </div>
+
+        <div class="info">
+            <div class="tittle">
+                <p class="tittle-big">Quản lý tài khoản</p>
+                <div class="field-find">
+                    <div class="field-group">
+                <select name="options" id="options" class="select-field">
+                    <option value="">Tìm theo tên</option>
+                    <option value="Option 1">Tìm theo mã</option>
+                    <option value="Option 2">Theo tài khoản</option>
+                </select>
+                    </div>
+                    
+                    <input type="text" id="username" placeholder="Tìm kiếm...">
+
+                </div>
+             </div>
+
+            <div class="data">
+               <div class="table">
+                <div class="row">
+                    <p class="category-table">Mã TK</p>
+                    <p class="category-table">Họ và tên</p>
+                    <p class="category-table">Số điện thoại</p>
+                    <p class="category-table">Tài khoản</p>
+                    <p class="category-table">Hành động</p>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH1</p>
+                    <p class="data-table">Hằng Phạm</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">HangPham</p>
+                    <div class="action-table">
+                        <a href="#popup3" href="#popup2"class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH2</p>
+                    <p class="data-table">Nguyễn Thị Linh</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">Linh123</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH3</p>
+                    <p class="data-table">Hoàng Linh</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">Linhmen</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH4</p>
+                    <p class="data-table">Nân Tran</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">Nana</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH5</p>
+                    <p class="data-table">Phạm Bình</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">Binhvoi</p>
+                    <div class="action-table">
+                        <a href="#popup3"class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2"class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH6</p>
+                    <p class="data-table">Nguyễn Văn AN</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">kakau</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH7</p>
+                    <p class="data-table">Trần Dần</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">lisatran</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table">KH8</p>
+                    <p class="data-table">Nguyễn Thị Hằng</p>
+                    <p class="data-table">0123958434</p>
+                    <p class="data-table">girlcute</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+               </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="previous">&#8249;</a>
+                <a href="#" style="background-color: #069df8; color: white; border: 1px solid #069df8;">1</a>
+                <a href="#" style="border: 1px solid #069df8">2</a>
+                <a href="#" style="border: 1px solid #069df8">3</a>
+                <a href="#" class="next">&#8250;</a>
+            </div>
+        </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Đăng xuất ?</h2>
+            <div class="content">
+                <a class="co" href="dangnhap.html">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2>Xóa tài khoản ?</h2>
+            <div class="content">
+                <a class="co" href="#">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <h2>Khóa tài khoản ?</h2>
+            <div class="content">
+                <a class="co" href="#">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

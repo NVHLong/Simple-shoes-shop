@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    
+    <!-- css--> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="footer.css">
+    
+</head>
+<body>
+    <header style="box-shadow: 0px 2px #80808073; position: fixed;">
+        <nav>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_Search">
+                    <input type="text" class="txtSearch" id="myInput" placeholder="Nhập nội dung tìm kiếm">
+                    <a class="btn-search" style="padding: 14px 0px 12px 11px;">Tìm kiếm</a>
+                </div>
+                <div class="Nav_Tool">
+                    <a href="Cart.html"><img src="Icon/giohang.png" alt=""><span class="badge">3</span></a>
+                    <div class="dropdown">
+                        <a href="canhan.html"><img style="width: 40px;"src="Icon/avt1.png" alt=""></a>
+                        <div class="dropdown-content">
+                          <a href="canhan.html">Trang cá nhân</a>
+                          <a href="#popup2">Đăng xuất</a>
+                        </div>
+                      </div> 
+                </div>
+            </div>
+            <div class="menu">
+
+                <ul id="myUL">
+                    <li>
+                        <a style="font-weight: bold; color: #069DF8;" href="sanpham.html" href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="sanpham.html">Sản phẩm</a>
+                            <div class="dropdown-content">
+                              <a href="#">Adidas</a>
+                              <a href="sanphamnike.html">Nike</a>
+                              <a href="#">Puma</a>
+                              <a href="#">Vans</a>
+                              <a href="#">Converse</a>
+                              <a href="khongthaysp.html">New Balance</a>
+                            </div>
+                          </div> 
+                    </li>
+                    <li><a href="tintuc.html">Tin tức</a>
+
+                    </li>
+                    <li><a href="Gioithieu.html">Giới thiệu</a>
+
+                    </li>
+                    
+                    <li id ="hotro" style="margin-left:336px ; "> Hotline: <span style="color: #FF510D;">0912345678 / 0123456789</span>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="banner">
+            <img class="banner" src="icon/banner1.png">
+        </div>
+    </section>
+    <section id="ship">
+        <div class="Section_ship">
+            <div class="Section_ship_grid">
+                <div class="Section_ship_grid_all">
+                    <div class="Section_ship_grid_con">
+                        <div class="Grid-icon-ship">
+                            <div class="icon"><img src="Icon/ship.png" id="Icon_shipping" alt=""></div>
+                            <div class="Con-title">
+                                <p id="h1">Vận chuyển miễn phí</p>
+                                <p id="h2">Vận chuyển miễn phí trên toàn quốc với các đơn hàng từ 2 triệu </p>
+                            </div>
+                        </div>
+                        <div class="Grid-icon-ship">
+                            <div class="icon"><img src="Icon/recover.png" id="Icon_shipping" alt=""></div>
+                            <div class="Con-title">
+                                <p id="h1">Đổi trả hàng miễn phí</p>
+                                <p id="h2">Đổi trả hàng và hoàn tiền 100% với đơn hàng yêu cầu đổi trả</p>
+                            </div>
+                        </div>
+                        <div class="Grid-icon-ship">
+                            <div class="icon"><img src="Icon/24h.png" id="Icon_shipping" alt=""></div>
+                            <div class="Con-title">
+                                <p id="h1" style="padding: 0 80px ;">Hỗ trợ 24h</p>
+                                <p id="h2">Hỗ trợ và tư vấn 24/7 với các yêu cầu của khách hàng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="product">
+        <div class="content">
+            <div class="title">Sản phẩm bán chạy </div>
+        </div>
+        
+
+        <div class="grid-content">
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                <a href="chitietsanpham.html"><img src="Shoe/nkie af1.jpeg" alt="Ảnh giay"></a>
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="chitietsanpham.html">Nike AF1 White</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.000.000đ</p>
+                        <p class="sale">1.600.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/Nike Air Force 1 Mid.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Nike AF 1 Mid</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.200.000đ</p>
+                        <p class="sale">1.760.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,8</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/Nike Dunk Low Retro.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Nike Dunk Low Retro</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.100.000đ</p>
+                        <p class="sale">1.900.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/Asics Gel-Nimbus 9.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Asics Gel-Nimbus 9</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.000.000đ</p>
+                        <p class="sale">1.600.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,6</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-content">
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/Vault by Vans Slip-On.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Vault by Vans Slip-On</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.880.000đ</p>
+                        <p class="sale">1.400.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/Vans Slip-On Hole Punch Denim.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Vans Slip-On Hole</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.000.000đ</p>
+                        <p class="sale">1.600.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/adidas YEEZY Boost 350 V2.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Adidas YEEZY Boost 350</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.100.000đ</p>
+                        <p class="sale">1.900.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,4</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-20%</div>
+                    <img src="Shoe/adidas originals Stan Smith.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Adidas Stan Smith</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.000.000đ</p>
+                        <p class="sale">1.600.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">4,3</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" style="padding:60px ;">
+            <a href="sanpham.html" class="btn">Xem thêm</a>
+        </div>
+
+    </div>
+
+    <div class="product">
+        <div class="content">
+            <div class="title">Sản phẩm mới </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="grid-content">
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Nike Air Force 1 Mid by Virgil Abloh.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Nike Mid Virgil Abloh</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.500.000đ</p>
+                        <p class="sale">2.250.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Puma Carmen L.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Puma Carmen L </a></p>
+                    <div class="price">
+                        <p class="giagoc">2.000.000đ</p>
+                        <p class="sale">1.800.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Puma Suede Crepe.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Puma Suede Crepe</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.800.000đ</p>
+                        <p class="sale">1.620.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Puma WMNS Mayze.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Puma WMNS Mayze</a></p>
+                    <div class="price">
+                        <p class="giagoc">2.500.000đ</p>
+                        <p class="sale">2.250.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-content">
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Converse Canvas All-Star.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Converse Canva All Star</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.500.000đ</p>
+                        <p class="sale">1.350.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/Converse All Star 100.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Converse All Star 100</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.900.000đ</p>
+                        <p class="sale">1.700.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/ans Old Skool.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">Vans Old Skool</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.200.000đ</p>
+                        <p class="sale">1.080.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-product">
+                <div class="grid-product-img">
+                    <div class="best_sale">-10%</div>
+                    <img src="Shoe/VANS VAULT SK8.jpeg" alt="Ảnh giay">
+                </div>
+                <div class="grid-product-title">
+                    <p id="giay"><a href="">VANS VAULT SK8</a></p>
+                    <div class="price">
+                        <p class="giagoc">1.600.000đ</p>
+                        <p class="sale">1.440.000đ</p>
+                    </div>
+                    <div class="review">
+                        <span style="font-size:16px ;">5</span>
+                        <div class="box-cart"><img src="Icon/star1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" style="padding:50px ;">
+            <a href="sanpham.html" class="btn">Xem thêm</a>
+        </div>
+
+    </div>
+    
+<div class="userreview">
+    <div class="content">
+        <div class="title">Khách hàng nói gì về chúng tôi </div>
+    </div>
+
+    <div class="userreview-review">
+        <figure class="card">
+            <div class="profile-image">
+              <img src="Icon/avt1.png" alt="profile-sample2" />
+            </div>
+            <figcaption>
+              <h3>Hằng Nguyễn</h3>
+              <p>“Giày của shop đi rất ưng ý, shop cũng tư vấn nhiệt tình nữa, mình chưa thấy shop nào nhiệt tình vậy luôn, ủng hộ lâu dài”</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <div class="profile-image">
+              <img src="Icon/av2.png" alt="profile-sample7" />
+            </div>
+            <figcaption>
+              <h3>Hoàng Linh</h3>
+              <p>“Trước mình hay ra shop mua hàng trực tiếp nhưng mà dịch thì không đi được, bây giờ thấy shop có web bán không thua gì mua trực tiếp ”</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <div class="profile-image">
+              <img src="Icon/av3.png" alt="profile-sample6" />
+            </div>
+            <figcaption>
+              <h3>Nana Tran</h3>
+              <p>
+                “Bạn giới thiệu nên mình mua, lúc đầu tưởng không ưng mà ưng không tưởng, sản phẩm chính hãng, chất lượng”
+              </p>
+            </figcaption>
+          </figure>
+    </div>
+   
+    <div class="prenext">
+        <a href="#" class="previous round">&#8249;</a>
+        <a href="#" class="next round">&#8250;</a>
+    </div>
+</div> 
+
+<div class="gioithieu">
+    <div class="content">
+        <div class="title">Câu chuyện của Simple Shoes Shop </div>
+    </div>
+    <div class="gioithieu_content">
+        <div class="gioithieu_content_grid">
+            <img src="Icon/Group 569.png" alt="" id="anh-right">
+        </div>
+        <div class="gioithieu_content_grid1">
+            <p style="padding-top:20px ;">Bạn có biết tại sao tên cửa hàng của tôi lại là Simple Shoes Shop không ?
+                Thật ra câu trả lời đơn giản như cái tên của cửa hànǵ vậy, khi còn nhỏ tôi luôn có một ước mơ đó là sở hữu một đôi giày đơn giản để có thể chơi bóng cùng những đứa trẻ hàng xóm, nhưng lúc đó nhà tôi còn quá nghèo, không đủ để mua cho tôi một đôi giày thể thao. Từ lúc đó tôi đã ấp ủ với bản thân mình rằng sau này tôi sẽ lập ra một cửa hàng và bán đi những đôi giày cho mọi người.....</p>
+            <a href="index.html" class="btn" style="margin: -159px;margin-left: 2px; height: 40px;">Xem thêm</a>
+        </div>
+</div>
+
+<div id="popup2" class="overlay">
+    <div class="popup">
+        <h2>Đăng xuất ?</h2>
+        <div class="content">
+            <a class="co" href="index-1.html">Có</a>
+            <a class="khong" href="#">Không</a>
+        </div>
+    </div>
+</div>
+</div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="Logo-support-text">
+                <img src="Icon/Wrapper.png" alt="">
+                </div>
+
+            </div>
+            <div class="link">
+                <div class="dichvu">
+                    <p>Khuyến mãi</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Voucher</li>
+                            <li>Khuyến mãi tháng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Chính sách</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Chính sách vận chuyển</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo mật</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Liên hệ</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Cửa hàng giày Simple Shoes Shop</li>
+                            <li>SĐT: 0912345678</li>
+                            <li>Địa chỉ: 129 P.Bà Triệu, Bùi Thị Xuân, Hai Bà Trưng, Hà Nội</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footerlogo">©2022 Simple Shoe Shop</p>
+
+</body>
+</html>

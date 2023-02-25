@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    overflow-x: visible !important;
+    font-family: 'Lexend Deca';
+}
+
+header{
+    box-shadow: 0px 2px #80808073; 
+    position: fixed; 
+    width: 100%;
+    height: 100px;
+}
+
+.Sub_Bar {
+    height: 100px;
+    padding: 0px 76px ;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: #069DF8;
+    gap:818px;
+}
+
+.Sub_Bar .Nav_Logo img {
+    height: 74px;
+    margin-top: 9px;
+    margin-right: 272px;
+}
+
+.Sub_Bar .Nav_acc{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.Sub_Bar .Nav_acc img {
+    height: 40px;
+    width: 40px;
+}
+
+.Nav_acc p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

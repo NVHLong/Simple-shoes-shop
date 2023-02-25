@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý đơn hàng</title>
+    <link rel="stylesheet" href="top-bar.css">
+    <link rel="stylesheet" href="qly-donhang.css">
+</head>
+<body>
+    <header>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="admin-index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_acc">
+                    <img src="Icon/avt-nv.png" alt="">
+                    <p class="acc">Huong123</p>
+                </div>
+            </div>
+    </header>
+   
+    <div class="main">
+        <div class="navbar">
+            <a href="admin-index.html" class="category">Thống kê</a>
+            <a href="qly-donhang.html" class="chose">Đơn hàng</a>
+            <a href="qly-sanpham.html" class="category">Sản phẩm</a>
+            <a href="qly-taikhoan.html" class="category">Tài khoản</a>
+            <a href="qly-nhanvien.html" class="category">Nhân viên</a>
+        <div class="line"></div>
+        <a href="#popup1" class="category">Đăng xuất</a>
+        </div>
+
+        <div class="info">
+            <div class="tittle">
+                <p class="tittle-big">Quản lý đơn hàng</p>
+                <div class="field-find">
+                    <div class="field-group">
+                <select name="options" id="options" class="select-field">
+                    <option value="">Tìm theo mã đơn hàng</option>
+                    <option value="Option 1">Tìm theo mã khách hàng</option>
+                </select>
+                    </div>
+                    
+                    <input type="text" id="username" placeholder="Tìm kiếm...">
+
+                </div>
+             </div>
+
+            <div class="data">
+               <div class="table">
+                <div class="row">
+                    <p class="category-table" style="    width: 30px;
+                    margin-left: 19px;">STT</p>
+                    <p class="category-table" style="
+                    margin-left: 19px;">Mã đơn</p>
+                    <p class="category-table">Khách hàng</p>
+                    <p class="category-table" style="
+                    margin-left: 24px;">Sản phẩm</p>
+                    <p class="category-table">Tổng tiền</p>
+                    <p class="category-table">Thời gian</p>
+                    <p class="category-table">Trạng thái</p>
+                    <p class="category-table">Hành động</p>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">1</p>
+                    <p class="data-table">Ma1</p>
+                    <p class="data-table-kh">HangNguyen</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Nike AF 1 White [1]</p>
+                        <p class="data-table-tensp">Nike Dunk Low Retro [2]</p>
+                    </div>
+                    <p class="data-table-gia">5.400.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-xl">Đang xử lý</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup2" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+                
+                <div class="row">
+                    <p class="data-table-tt">2</p>
+                    <p class="data-table">Ma2</p>
+                    <p class="data-table-kh">HungPham</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Nike AF 1 White [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">3</p>
+                    <p class="data-table">Ma3</p>
+                    <p class="data-table-kh">Hoa123</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Vans Old Skool [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">4</p>
+                    <p class="data-table">Ma4</p>
+                    <p class="data-table-kh">linhlinh</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Puma Suede Crepe [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">5</p>
+                    <p class="data-table">Ma5</p>
+                    <p class="data-table-kh">Aanna</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">VANS VAULT SK8 [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">6</p>
+                    <p class="data-table">Ma6</p>
+                    <p class="data-table-kh">bibi</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Nike Air Force 1 Mid [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">7</p>
+                    <p class="data-table">Ma7</p>
+                    <p class="data-table-kh">JojoRabit</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Puma Carmen L [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+                <div class="line-table"></div>
+
+                <div class="row">
+                    <p class="data-table-tt">8</p>
+                    <p class="data-table">Ma8</p>
+                    <p class="data-table-kh">BruceW</p>
+                    <div class="data-table-sp">
+                        <p class="data-table-tensp">Puma WMNS Mayze [1]</p>
+                    </div>
+                    <p class="data-table-gia">1.600.000đ</p>
+                    <p class="data-table-ngay">11/06/2022</p>
+                    <p class="data-table-pd">Đã phê duyệt</p>
+                    <div class="action-table">
+                        <a href="#popup3" class="button-fix"><img src="Icon/Write.png"></a>
+                        <a href="#popup4" class="button-remove"><img src="Icon/Trash.png"></a>
+                    </div>
+                </div>
+
+               </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="previous">&#8249;</a>
+                <a href="#" style="background-color: #069df8; color: white; border: 1px solid #069df8;">1</a>
+                <a href="#" style="border: 1px solid #069df8">2</a>
+                <a href="#" style="border: 1px solid #069df8">3</a>
+                <a href="#" class="next">&#8250;</a>
+            </div>
+        </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Đăng xuất ?</h2>
+            <div class="content">
+                <a class="co" href="dangnhap.html">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2>Xóa đơn hàng ?</h2>
+            <div class="content">
+                <a class="co" href="#">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <h2>Phê duyệt đơn hàng</h2>
+            <div class="content">
+                <a class="co" href="#">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="overlay">
+        <div class="popup" style="width: 600px;height: 300px;">
+            <img width="100px" src="Icon/red-alert.png" style="margin: 0 230px;">
+            <div class="content" style="margin: 10px 0 40px 40px;">
+                <h2 style="color: #ff0000;">Không thể xóa đơn hàng đã phê duyệt</h2>
+            </div>
+            <a class="khong" href="#" style="margin: 0 230px;">OK</a>
+        </div>
+    </div>
+
+</body>
+</html>

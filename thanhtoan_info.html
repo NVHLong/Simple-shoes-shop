@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    
+    <!-- css--> 
+    <link rel="stylesheet" href="thanhtoan.css">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="footer.css">   
+</head>
+<body>
+    <header style="box-shadow: 0px 2px #80808073; position: fixed;">
+        <nav>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_Search">
+                    <input type="text" class="txtSearch" id="myInput" placeholder="Nhập nội dung tìm kiếm">
+                    <button class="btn-search">Tìm kiếm</button>
+                </div>
+                <div class="Nav_Tool">
+                    <a href="Cart.html"><img src="Icon/giohang.png" alt=""><span class="badge">3</span></a>
+                    <div class="dropdown">
+                        <a href="canhan.html"><img style="width: 40px;"src="Icon/avt1.png" alt=""></a>
+                        <div class="dropdown-content">
+                          <a href="canhan.html">Trang cá nhân</a>
+                          <a href="#popup5">Đăng xuất</a>
+                        </div>
+                      </div> 
+                </div>
+            </div>
+            <div class="menu">
+
+                <ul id="myUL">
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="sanpham.html" >Sản phẩm</a>
+                            <div class="dropdown-content">
+                              <a href="#">Adidas</a>
+                              <a href="#">Nike</a>
+                              <a href="#">Puma</a>
+                              <a href="#">Vans</a>
+                              <a href="#">Converse</a>
+                              <a href="#">New Balance</a>
+                            </div>
+                          </div> 
+                    </li>
+                    <li><a href="tintuc.html" >Tin tức</a>
+
+                    </li>
+                    <li><a href="Gioithieu.html">Giới thiệu</a>
+
+                    </li>
+                    
+                    <li id ="hotro" style="margin-left:340px ; "> Hotline: <span style="color: #FF510D;">0912345678 / 0123456789</span>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="Breadcrumb">
+        <a id="bre1" href="index.html">Trang chủ / </a>
+        <a id="bre1" href="Cart.html">Giỏ hàng / </a>
+        <a id="bre2" href="thanhtoan_1sp.html">Thanh toán</a>
+    </div>
+
+    <div class="main">
+        <div class="main-checkout">
+            <div class="main-checkout-left">
+                <div class="main-checkout-left-t1" style="height: 542px;">
+                    <p>Chi tiết thanh toán</p>
+                    <div class="main-checkout-left-info">
+                        <div class="main-checkout-ten-sdt">
+                            <div class="main-checkout-left-title">Họ và tên
+                               <h4>Hằng Nguyễn</h4>
+                            </div>
+                            <div class="main-checkout-left-title">SDT
+                                <h4>0234567891010</h4>
+                             </div>
+                        </div>
+                        <div class="main-checkout-email">
+                            <p class="main-checkout-left-title">Email
+                            <h4>hangnguyen@gmail.com</h4>
+                            </p>
+                        </div>
+                        <div class="main-checkout-diachi">
+                            <p class="main-checkout-left-title">Địa chỉ
+                            <h4>96 Định công, Thanh Xuân, Hà Nội</h4>
+                            </p>
+                        </div>
+                    
+                    
+                    <div class="checkout-left-Ghichu">
+                        <label for="">Ghi chú đơn hàng</label>
+                        <textarea name="" id="txtGhichu" placeholder="Nhập ghi chú cho đơn hàng của bạn" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="btn-thanhtoan">
+                        <a href="thanhtoan_1sp.html"  class="btn-suathongtin">Sửa thông tin đặt hàng</a>
+                    </div>
+
+                </div>
+                </div>
+                <div class="main-checkout-left-t2">
+                    <p>Chọn phương thức thanh toán</p>
+                    <div class="ship_cod">
+                        <label id="ship_cod" for="">
+                            <input type="radio" name="check" id="checkbox" checked>
+                            <img src="Icon/COD.png" alt="">
+                            <a href="#popup2" class="popup_thanhtoan">Thanh toán khi nhận hàng</a>
+                        </label>
+                        <label id="ship_cod" for="">
+                            <input type="radio" name="check" id="checkbox">
+                            <img src="Icon/Momo.png" alt="">
+                            <a href="#popup2" class="popup_thanhtoan">Thanh toán qua ví điện tử</a>
+                        </label>
+                        <label id="ship_cod" for="">
+                            <input type="radio" name="check" id="checkbox">
+                            <img src="Icon/Banking.png" alt="">
+                            <a href="#popup3" class="popup_thanhtoan">Thanh toán qua thẻ ngân hàng</a>
+                        </label>
+                        <label id="ship_cod" for="">
+                            <input type="radio" name="check" id="checkbox">
+                            <img src="Icon/card.png" alt="">
+                            <a href="#popup4" class="popup_thanhtoan">Thanh toán qua thẻ ghi nợ</a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="main-cart-right" style="height: 595px;">
+                <p id="main-tomtat">Đơn hàng của tôi</p>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="Shoe/nkie af1.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <p class="tittle">Nike AF1 White [1]</p>
+                        <div class="product-info-price">
+                            <p class="color">Màu sắc: Trắng</p>
+                            <p class="price">1.600.000đ</p>
+                        </div>
+                    </div>
+                    <a href="#popup1" class="close">&times;</a>
+                </div>
+                
+                <hr>
+                <div class="input-KM">
+                    <input type="text" name="" id="txtKM" placeholder="Mã giảm giá">
+                    <input type="button" id="btn-apdung" value="Áp dụng">
+                </div>
+                <div class="tamtinh">
+                    <label for="">Mã giảm giá</label>
+                    <p>0đ</p>
+                </div>
+                <div class="tamtinh">
+                    <label for="">Tạm tính</label>
+                    <p>0đ</p>
+                </div>
+                <div class="tamtinh">
+                    <label for="">Phí vận chuyển</label>
+                    <p>Miễn phí vận chuyển</p>
+                </div>
+                <hr>
+                <div class="tamtinh">
+                    <label for="">Tổng</label>
+                    <p>5.400.000đ</p>
+                </div>
+                <div class="btn-thanhtoan">
+                    <a href="hoanhthanh.html" id="btn-thanhtoan">Đặt hàng</a>
+                </div>
+                <a style="
+            font-size: 12px;
+            line-height: 24px;
+            color: #757575;margin-left: -16px;">*Đơn vị vận chuyển của cửa hàng là mặc định</a>
+            </div>
+        </div>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Xóa sản phẩm ?</h2>
+                <div class="content" style="margin: 40px 45px;">
+                    <a class="co" href="cart_1sp.html">Có</a>
+                    <a class="khong" href="#">Không</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup" style=" width: 490px;
+        height: 480px;">
+            <form id="myForm" class="form">
+                <div class="title"> Thanh toán qua ví điện tử</div>
+                <div class="line-tomtat" style="width:450px ; margin: 20px 0px 20px 0px;"></div>
+                <div class="form-control">
+                    <label for="username">Loại ví điện tử</label>
+                    <input type="text" id="username" placeholder="Ví momo">
+                </div>
+                <div class="form-control">
+                    <label for="password2">Số điện thoại</label>
+                    <input type="password" id="password2" placeholder="Nhập số điện thoại">
+                </div>
+
+                <a for="" style="    padding-right: 120px;">
+                    <input type="checkbox" name="check" id="checkbox">
+                    Ghi nhớ  
+                </a>
+
+                <button class="button1"><a href="thanhtoan.html" style="color: #fff; text-decoration: none;" >Thanh toán</a></button>
+            </form>
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup" style=" width: 490px;
+        height: 480px;">
+            <form id="myForm" class="form">
+                <div class="title"> Thanh toán qua thẻ ngân hàng</div>
+                <div class="line-tomtat" style="width:450px ; margin: 20px 0px 20px 0px;"></div>
+                <div class="form-control">
+                    <label for="username">Ngân hàng</label>
+                    <input type="text" id="username" placeholder="Tên ngân hàng">
+                </div>
+                <div class="form-control">
+                    <label for="password2">Số điện thoại</label>
+                    <input type="password" id="password2" placeholder="Nhập số tài khoản">
+                </div>
+
+                <a for="" style="    padding-right: 120px;">
+                    <input type="checkbox" name="check" id="checkbox">
+                    Ghi nhớ  
+                </a>
+
+                <button class="button1"><a href="thanhtoan.html" style="color: #fff; text-decoration: none;" >Thanh toán</a></button>
+            </form>
+        </div>
+    </div>
+
+    <div id="popup4" class="overlay">
+        <div class="popup" style=" width: 490px;
+        height: 480px;">
+            <form id="myForm" class="form">
+                <div class="title"> Thanh toán qua thẻ ghi nợ</div>
+                <div class="line-tomtat" style="width:450px ; margin: 20px 0px 20px 0px;"></div>
+                <div class="form-control">
+                    <label for="username">Số thẻ</label>
+                    <input type="text" id="username" placeholder="Nhập số thẻ">
+                </div>
+                <div class="form-control">
+                    <label for="password2">Ngày hết hạn</label>
+                    <input type="password" id="password2" placeholder="Nhập ngày">
+                </div>
+
+                <a for="" style="    padding-right: 120px;">
+                    <input type="checkbox" name="check" id="checkbox">
+                    Ghi nhớ  
+                </a>
+
+                <button class="button1"><a href="thanhtoan.html" style="color: #fff; text-decoration: none;" >Thanh toán</a></button>
+            </form>
+        </div>
+    </div>
+
+    <div id="popup5" class="overlay">
+        <div class="popup">
+            <h2>Đăng xuất ?</h2>
+            <div class="content" style="margin: 40px 45px;">
+                <a class="co" href="index-1.html">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup6" class="overlay">
+        <div class="popup">
+            <h2>Đã lưu thông tin</h2>
+            <div class="content" style="margin: 40px 45px;">
+                <a class="khong" style="margin-left: 79px;" href="#">OK</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <footer>
+        <div class="footer-content">
+            <div class="Logo-support-text">
+                <img src="Icon/Wrapper.png" alt="">
+                </div>
+
+            </div>
+            <div class="link">
+                <div class="dichvu">
+                    <p>Khuyến mãi</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Voucher</li>
+                            <li>Khuyến mãi tháng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Chính sách</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Chính sách vận chuyển</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo mật</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dichvu">
+                    <p>Liên hệ</p>
+                    <div class="dichvu-details">
+                        <ul>
+                            <li>Cửa hàng giày Simple Shoes Shop</li>
+                            <li>SĐT: 0912345678</li>
+                            <li>Địa chỉ: 129 P.Bà Triệu, Bùi Thị Xuân, Hai Bà Trưng, Hà Nội</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footerlogo">©2022 Simple Shoe Shop</p>
+
+</body>
+
+
+</html>

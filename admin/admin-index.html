@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý</title>
+    <link rel="stylesheet" href="top-bar.css">
+    <link rel="stylesheet" href="admin-index.css">
+</head>
+<body>
+    <header>
+            <div class="Sub_Bar">
+                <div class="Nav_Logo">
+                    <a href="admin-index.html"><img src="Icon/Logo.png" alt=""></a>
+                </div>
+                <div class="Nav_acc">
+                    <img src="Icon/avt-nv.png" alt="">
+                    <p class="acc">Huong123</p>
+                </div>
+            </div>
+    </header>
+   
+    <div class="main">
+        <div class="navbar">
+        <a href="admin-index.html" class="chose">Thống kê</a>
+        <a href="qly-donhang.html" class="category">Đơn hàng</a>
+        <a href="qly-sanpham.html" class="category">Sản phẩm</a>
+        <a href="qly-taikhoan.html" class="category">Tài khoản</a>
+        <a href="qly-nhanvien.html" class="category">Nhân viên</a>
+        <div class="line"></div>
+        <a href="#popup1" class="category">Đăng xuất</a>
+        </div>
+
+        <div class="info">
+            <div class="tittle">
+            <p class="tittle-big">Thống kê doanh thu</p>
+            <div class="field-group">
+                <select name="options" id="options" class="select-field">
+                    <option value="">Tháng</option>
+                    <option value="Option 1">Năm</option>
+                    <option value="Option 2">Tuần</option>
+                    <option value="Option 3">Ngày</option>
+                </select>
+            </div>
+            </div>
+
+            <div class="data">
+                <div class="notice">
+                    <p class="tittle-medium">Số lượng bán ra</p>
+                    <div class="notice-data">
+                        <img src="Icon/giohang-2.png">
+                        <div class="notice-data-info">
+                            <p class="tittle-info">30 đơn hàng</p>
+                            <p class="data-info">Số lượng đơn hàng</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notice">
+                    <p class="tittle-medium">Doanh thu</p>
+                    <div class="notice-data">
+                        <img src="Icon/loinhuan.png">
+                        <div class="notice-data-info">
+                            <p class="tittle-info">20.000.000đ</p>
+                            <p class="data-info">Doanh thu tháng</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="data">
+                <div class="notice">
+                    <p class="tittle-medium">Sản phẩm bán được nhiều nhất</p>
+                    <div class="notice-data">
+                        <img src="Icon/thantich.png">
+                        <div class="notice-data-info">
+                            <p class="tittle-info" style="font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;">Sản phẩm : Giày Nike AF1 White</p>
+                            <p class="data-info" style="font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;">15 đơn hàng</p>
+                        </div>
+                    </div>
+                </div>
+      
+                <div class="notice">
+                    <p class="tittle-medium">Sản phẩm sắp hết hàng</p>
+                    <div class="notice-data">
+                        <img class="warning" src="Icon/warning.png">
+                        <img style="    margin-left: -10px;" src="Icon/canhbao.png">
+                        <div class="notice-data-info">
+                            <p class="data-info" style="font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;">Sản phẩm : Adidas YEEZY Boost 350 </p>
+                            <p class="data-info" style="font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px">Tồn kho : 10</p>
+                            <p class="data-info" style="font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;">Sản phẩm : Vans Old Skool </p>
+                            <p class="data-info" style="font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px">Tồn kho : 0</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="chart">
+                <div class="tittle">
+                    <p class="tittle-medium" style="width: 355px;">Biểu đồ doanh thu</p>
+                    <div class="field-group">
+                        <select name="options" id="options" class="select-field">
+                            <option value="">Năm</option>
+                            <option value="Option 1">Tháng</option>
+                            <option value="Option 2">Tuần</option>
+                            <option value="Option 3">Ngày</option>
+                        </select>
+                    </div>
+                </div>
+                <img src="Icon/chart.png">
+            </div>
+        </div>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Đăng xuất ?</h2>
+            <div class="content">
+                <a class="co" href="dangnhap.html">Có</a>
+                <a class="khong" href="#">Không</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

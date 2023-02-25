@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    overflow-x: visible !important;
+    font-family: 'Lexend Deca';
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+.Sub_Bar {
+    height: 100px;
+   padding: 0px 120px 0px 120px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #069DF8;
+}
+
+.Sub_Bar .Nav_Logo img {
+    height: 74px;
+    margin-top: 9px;
+    margin-right: 272px;
+}
+
+.Nav {
+    height: 88px;
+    padding: 0px 76px 0px 76px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+.Nav_Search {
+    position: relative;
+    width: 476px;
+   /* border: 1px solid #B0B0B0;*/
+    display: flex;
+}
+
+.Nav_Search .txtSearch {
+    border-radius: 7px 0 0 7px;
+    font-size: 16px;
+    color: #B5B5BD;
+    height: 48px;
+    width: 100%;
+    padding: 14px 0px 12px 16px;
+    border: none;
+}
+
+.btn-search {
+    height: 48px;
+    width: 99px;
+    font-size: 14px;
+    background: #00629E;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.Nav_Tool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 120px;
+    height: 24px;
+    margin-left: 290px;
+}
+
+
+/* Điều hướng */
+
+
+/* thanh menu*/
+
+.menu {
+    /* position: sticky; cố định menu
+    top: 0;*/
+    position: relative;
+    height: 66px;
+   /*padding: 0px 120px 0px 120px; */
+}
+
+.menu ul {
+    background-color: #ffffff;
+    height: 100%;
+    padding-left: 120px;
+    /* padding-top: 10px;
+padding-bottom: 10px; */
+}
+
+.menu ul li {
+    display: inline-table;
+    line-height: 64px;
+    width: 155px;
+    position: relative;
+    color: #757575;
+    font-size: 18px;
+}
+
+.menu #hotro{
+    margin-left:490px;
+    width: 294px;
+
+}
+
+.menu ul li a {
+    color: #757575;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: #069DF8;
+    font-weight: bold;
+}
+
+.menu ul li>.sub {
+    display: none;
+    min-width: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu ul li:hover .sub {
+    display: block;
+}
+
+
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #757575;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .Breadcrumb {
+    height: 60px;
+    gap: 8px;
+    padding: 194px 120px 0;
+}
+
+.Breadcrumb #bre1 {
+    text-decoration: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Breadcrumb #bre2 {
+    text-decoration: none;
+    color: #069df8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+/*--display: inline-block - Hiển thị dạng khối nội tuyến
+display: inline-table - Hiển thị dạng bảng nội tuyến
+
+text-align - Sắp xếp thành phần
+
+float - trôi
+
+position - Định vị trí
+position: relative - Định vị trí tương đối
+position: absolute - Định vị trí tuyệt đối
+position: fixed - Định vị trí cố định
+
+z-index - Thiết lập thứ tự xếp chồng nhau
+z-index 2 thành phần - Thiết lập thứ tự xếp chồng nhau của 2 thành phần
+z-index 3 thành phần - Thiết lập thứ tự xếp chồng nhau của 3 thành phần
+
+content: "thêm text" - Thêm nội dung cho thành phần
